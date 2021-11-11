@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name eec)(type KiCad)(uri ${KIPRJMOD}/lib/stm32/eec.pretty)(options "")(descr ""))
+  (lib (name devboard-stm32g030f6p6)(type KiCad)(uri ${KIPRJMOD}/lib/devboard-stm32g030f6p6.pretty)(options "")(descr ""))
+  (lib (name MICROXNJ)(type KiCad)(uri ${KIPRJMOD}/lib/usb/MICROXNJ.pretty)(options "")(descr ""))
+)
