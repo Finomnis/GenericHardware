@@ -202,29 +202,6 @@ F 3 "" H 3450 1250 50  0001 C CNN
 $EndComp
 Connection ~ 3150 1300
 $Comp
-L Device:C_Small C7
-U 1 1 618BDFE2
-P 4450 3050
-F 0 "C7" H 4358 3096 50  0000 R CNN
-F 1 "100n" H 4358 3005 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4450 3050 50  0001 C CNN
-F 3 "~" H 4450 3050 50  0001 C CNN
-	1    4450 3050
-	-1   0    0    -1  
-$EndComp
-Connection ~ 4450 2950
-$Comp
-L power:GND #PWR0105
-U 1 1 618BEEB2
-P 4450 3150
-F 0 "#PWR0105" H 4450 2900 50  0001 C CNN
-F 1 "GND" H 4300 3050 50  0000 C CNN
-F 2 "" H 4450 3150 50  0001 C CNN
-F 3 "" H 4450 3150 50  0001 C CNN
-	1    4450 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 618C044D
 P 3450 1500
@@ -525,29 +502,29 @@ F 3 "~" H 9850 4200 50  0001 C CNN
 	1    9850 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 3550 0    50   Input ~ 0
-A0
-Text GLabel 9650 3450 0    50   Input ~ 0
-A1
-Text GLabel 9650 3350 0    50   Input ~ 0
-A2
-Text GLabel 9650 3250 0    50   Input ~ 0
-A3
-Text GLabel 9650 3150 0    50   Input ~ 0
-A4
-Text GLabel 9650 3050 0    50   Input ~ 0
-A5
-Text GLabel 9650 2950 0    50   Input ~ 0
-A6
 Text GLabel 9650 2850 0    50   Input ~ 0
+A0
+Text GLabel 9650 2950 0    50   Input ~ 0
+A1
+Text GLabel 9650 3050 0    50   Input ~ 0
+A2
+Text GLabel 9650 3150 0    50   Input ~ 0
+A3
+Text GLabel 9650 3250 0    50   Input ~ 0
+A4
+Text GLabel 9650 3350 0    50   Input ~ 0
+A5
+Text GLabel 9650 3450 0    50   Input ~ 0
+A6
+Text GLabel 9650 3550 0    50   Input ~ 0
 A7
-Text GLabel 9650 4300 0    50   Input ~ 0
-I2C_SCL
-Text GLabel 9650 4200 0    50   Input ~ 0
-I2C_SDA
 Text GLabel 9650 4500 0    50   Input ~ 0
-UART_RX
+I2C_SCL
 Text GLabel 9650 4400 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 9650 4200 0    50   Input ~ 0
+UART_RX
+Text GLabel 9650 4300 0    50   Input ~ 0
 UART_TX
 $Comp
 L power:GND #PWR0112
