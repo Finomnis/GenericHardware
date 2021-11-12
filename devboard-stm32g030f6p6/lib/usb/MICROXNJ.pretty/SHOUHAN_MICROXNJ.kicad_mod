@@ -1,5 +1,6 @@
-(module SHOUHAN_MICROXNJ (layer F.Cu) (tedit 618D38B6)
+(module SHOUHAN_MICROXNJ (layer F.Cu) (tedit 618DB0FC)
   (descr <b>MICROXNJ-1</b><br>)
+  (attr smd)
   (fp_text reference REF** (at -1.025 6.735) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
