@@ -425,7 +425,7 @@ F 2 "devboard-stm32g030f6p6:osc_ssd_7F32000E12UCG" H 4000 4650 50  0001 C CNN
 F 3 "~" H 4000 4650 50  0001 C CNN
 F 4 "7F32000E12UCG" V 4000 4650 50  0001 C CNN "Part"
 	1    4000 4650
-	0    1    -1   0   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4150 4250 4150 4300
