@@ -20,7 +20,7 @@ fn main() -> ! {
     let gpiob = dp.GPIOB.split(&mut rcc);
     let mut led = gpiob.pb0.into_push_pull_output();
 
-    timer.start(500.ms());
+    timer.start(500.millis());
     loop {
         led.toggle().unwrap();
         block!(timer.wait()).unwrap();
